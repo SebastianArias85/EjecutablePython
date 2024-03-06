@@ -1,0 +1,28 @@
+FORMA DE CREAR UN EJECUTABLE A PARTIR DE UN ARCHIVO PYTHON
+
+1- Instalar PYINSTALLER
+
+pip install pyinstaller
+
+2- Luego de estar instalado debemos ir a la carpeta donde este el archivo python y abrir una terminal ahi y tipear:
+
+pyinstaller -F -w -i pepe.ico nombreArchivoPython.py
+
+(-i es para que el ejecutable tenga el dibujo del icono en este caso pepe.ico)
+
+
+
+FORMA DE CREAR UN EJECUTABLE PARA UNA PAGINA WEB URL
+
+1- Instalar NATIVEFIER
+
+npm install -g nativefier
+
+2- Luego de estar instalado debemos ir a la carpeta donde quiero crear el ejecutable ahi y tipear:
+
+nativefier http://(la direccion url de la pagina)
+
+
+3- Para mas cosas como por ejemplo el tamaño de la ventana o el nombre el ejecutable aca esta la documentacion:
+
+https://github.com/nativefier/nativefier/blob/master/API.md#icon
